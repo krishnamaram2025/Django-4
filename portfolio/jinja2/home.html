@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="offset-2 col-md-10">
+            <div class="placeholder"></div>
+            <div class="card-columns">
+                <div class="card text-white bg-primary mb-3 box-home">
+                    <div class="card-body">
+                        <h5 class="card-title"> Clusters</h5>
+                        <p class="card-text">Click here to know Cluster details</p>
+                        <a href="/aws/clusters" class="stretched-link"></a>
+                    </div>
+                </div>
+                <div class="card text-white bg-warning mb-3 box-home">
+                    <div class="card-body">
+                        <h5 class="card-title"> AWS accounts</h5>
+                        <p class="card-text">Click here to know your AWS accounts</p>
+                        <a href="/aws/accounts" class="stretched-link"></a>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

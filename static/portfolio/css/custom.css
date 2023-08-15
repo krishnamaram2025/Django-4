@@ -1,0 +1,137 @@
+a.white-color {
+    color:white !important;
+  }
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+.selected {
+  background-color: blue;
+  color: white;
+}
+.highlight {
+  background-color: rgba(170, 185, 239, 0.1);
+}
+
+#table_filter input {
+  width: 100%;
+  max-width: 200px;
+}
+
+.sidebar{
+  position: fixed;
+  top: 56px;
+  left: 0;
+  height: 100vh;
+}
+
+td {
+  overflow-wrap: anywhere;
+}
+
+.tooltip-inner {
+  max-width: 400px;
+}
+
+.tooltip { 
+  pointer-events: none;
+}
+
+.filter-container {
+  padding: 0;
+  border-radius: 5px;
+}
+
+.filter-container > select {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #ebeef0;
+}
+
+.pie {
+  fill: steelblue;
+}
+.pie:hover {
+  fill: brown;
+}
+
+#details-header{
+  display: inline-block;
+  height: 30px;
+  line-height: 100%;
+ }
+
+ 
+/* Create a custom checkbox using a span */
+#hide-long-running + span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  border: 2px solid #555;
+  border-radius: 3px;
+}
+
+/* Style the checkmark */
+#hide-long-running:checked + span:before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 12px;
+  margin: 2px;
+  border: solid #555;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.ui-autocomplete {
+  max-height: 100px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+
+#details-bottom {
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+  width: 82%;
+  right: 10;
+  margin-left: auto;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+#site-details-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.counter_text {
+  font-size: 100px;
+  color: lightblue;
+  text-align: center;
+}
+
+#aTNavbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.placeholder {
+  height: 56px;
+}
+
+.main-content {
+  padding-top: 10px;
+}
+
+.box-home{
+  height: 140px;
+}
