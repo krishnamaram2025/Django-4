@@ -20,7 +20,7 @@ $python manage.py startapp portfolio
 #Execution Flow
 * Clone the project:
 ```
-$ git clone https://github.com/fullstack2025/WebApp.git
+$ git clone https://github.com/krishnamaram2025/CSP.git
 ```
 
 * Install required packages:
