@@ -10,38 +10,37 @@ Database: SQL
 
 
 # Pre-Requisites
-$pip3 install Django
+```
+pip3 install Django
+django-admin startproject webapp
+python manage.py startapp portfolio
+```
 
-$django-admin startproject webapp
-
-$python manage.py startapp portfolio
-
-
-#Execution Flow
+# Execution Flow
 * Clone the project:
 ```
-$ git clone https://github.com/krishnamaram2025/CSP.git
+ git clone https://github.com/krishnamaram2025/CSP.git
 ```
 
 * Install required packages:
 ```
-$ pip3 install -r requirements.txt
+ pip3 install -r requirements.txt
 ```
 
 * Make migrations to database:
 ```
-$ python manage.py makemigrations
-$ python manage.py migrate
+ python manage.py makemigrations
+ python manage.py migrate
 ```
 * Get admin access:
 ```
-$ python manage.py createsuperuser (enter username, email, password)
+ python manage.py createsuperuser (enter username, email, password)
 ```
 
 * Run server:
 ```
-$ python manage.py runserver => to run local
-$gunicorn main.wsgi --bind 0.0.0.0:8000 => to run on remore machine
+ python manage.py runserver => to run local
+gunicorn main.wsgi --bind 0.0.0.0:8000 => to run on remore machine
 ```
 
 * Testing
